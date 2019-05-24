@@ -1,0 +1,44 @@
+<head>
+    <meta charset="UTF-8" name="viewport" content="width = device-width">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <script src="js/script.js"></script>
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+</head>
+<body>
+    <header id="main-title" class="main-color"><div>Lietuviški<br> kompiuteriniai žaidimai</div></header>
+    <nav class="main-color">
+        <div class="nav-container mobile-invisible">
+            <div class="nav-item"><a class="nav-link" href="sarasas.html"><img src="img/button-left.png" class="button-left">Grįžti į sąrašą</a></div>
+        <div class="nav-sep"></div>
+            <div class="nav-item"><a class="nav-link" href="apie.html">Apie<img src="img/button-right.png" class="button-right"></a></div>
+        </div>
+        <div class="nav-container mobile-visible">
+            <a class="nav-link" onclick="openMenu(this);"><img src="img/button-left.png" class="button-left" id="open-menu-button">Meniu</a>
+        </div>
+    </nav>
+    <header id="page-title" class="main-color"><div>Kompanijų sąrašas</div></header>
+    <main>
+        <article id="main-text">
+            <ul>
+                <li><a class="nav-link nav-button nav-wide" href="nordcurrent.html">Nordcurrent</a></li>
+            </ul>
+        </article>
+    </main>
+    <footer class="main-color">
+        <p>
+            Tinklapį kūrė: Liudvikas Dapšys 2019<br>
+            Projektas sukurtas studijuojant<br>
+            Vilniaus Gedimino Technikos Universitete<br>
+            ©VGTU 2019
+            <a class="nav-link" id="link-to-start" href="index.html">Pagrindinis puslapis</a>
+        </p>
+    </footer>
+    <div id="menu-popup" class="main-color">
+        <nav>
+            <div class="nav-item"><a class="nav-link" href="sarasas.html"><img src="img/button-left.png" class="button-left">Grįžti į sąrašą</a></div>
+            <div class="nav-sep"></div>
+            <div class="nav-item"><a class="nav-link" href="apie.html"><img src="img/button-left.png" class="button-left">Apie</a></div>
+        </nav>
+    </div>
+</body>
